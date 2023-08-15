@@ -95,4 +95,15 @@ MainTab:AddButton({
   	end    
 })
 
+local Section = MainTab:AddSection({
+	Name = "VG HUB"
+})
+
+MainTab:AddButton({
+	Name = "VG HUB Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+  	end    
+})
+
 OrionLib:Init()
