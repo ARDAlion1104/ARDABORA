@@ -73,7 +73,7 @@ local Section = MainTab:AddSection({
 MainTab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
   	end    
 })
 
@@ -89,7 +89,7 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "Prison Life Delete Doors",
+	Name = "Prison Life Script",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
   	end    
