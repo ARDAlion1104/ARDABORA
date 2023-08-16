@@ -4,6 +4,12 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "ARDA-BORA HUB", HidePremium = false, IntroEnabled = true, IntroText = "ARDA ve BORA", SaveConfig = true, ConfigFolder = "OrionTest"})
 
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 local MainTab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
@@ -15,6 +21,8 @@ local PlayerTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+CreditsTab:AddLabel("Credits to ARDAlion1104")
 
 local Section = PlayerTab:AddSection({
 	Name = "Movement"
@@ -74,6 +82,13 @@ MainTab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Reviz Admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ARDAlion1104/ARDABORA/main/revizadmin.lua"))()
   	end    
 })
 
