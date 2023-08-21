@@ -293,3 +293,5 @@ end
 import(image)
   	end    
 })
+
+OrionLib:Init()
