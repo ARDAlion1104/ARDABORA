@@ -297,9 +297,9 @@ import(image)
 })
 
 ArtMakerTab:AddButton({
-	Name = "Anime",
+	Name = "Mr. Beast",
 	Callback = function()
-      		local image = 'https://upload-os-bbs.hoyolab.com/upload/2022/11/05/8409043/90988373648173e6b97fa040a1297202_910222633013648728.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80' -- image you want to import
+      		local image = 'https://openseauserdata.com/files/0ed915c3aa897490d27728371b47b44f.png' -- image you want to import
 local resolutionX = 32 -- usually it's 32 but it might change depending on the frame?
 local resolutionY = 32 -- usually it's 32 but it might change depending on the frame?
 -- epic coding stuf --
