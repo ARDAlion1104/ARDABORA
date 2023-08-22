@@ -79,7 +79,7 @@ for y = 1, resolutionX, 1 do
 for x = 1, resolutionY, 1 do
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1 
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -90,7 +90,7 @@ end
 end
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -171,7 +171,7 @@ for y = 1, resolutionX, 1 do
 for x = 1, resolutionY, 1 do
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -182,7 +182,7 @@ end
 end
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -263,7 +263,7 @@ for y = 1, resolutionX, 1 do
 for x = 1, resolutionY, 1 do
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -274,7 +274,7 @@ end
 end
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -298,8 +298,8 @@ ArtMakerTab:AddButton({
 	Name = "Anime",
 	Callback = function()
       		local image = 'https://www.seekpng.com/png/detail/423-4236056_cute-pixel-art-bunny.png' -- image you want to import
-local resolutionX = 32 -- usually it's 32 but it might change depending on the frame?
-local resolutionY = 32 -- usually it's 32 but it might change depending on the frame?
+local resolutionX = 45 -- usually it's 32 but it might change depending on the frame?
+local resolutionY = 45 -- usually it's 32 but it might change depending on the frame?
 -- epic coding stuf --
 local grid = nil
 local s, e = pcall(function()
@@ -355,7 +355,7 @@ for y = 1, resolutionX, 1 do
 for x = 1, resolutionY, 1 do
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
@@ -366,7 +366,7 @@ end
 end
 pcall(function()
 local pixel = pixels[index]
-index = index + 1 -- index += 1 doesn't work wtf
+index = index + 1
 local r = pixels[index][1]
 local g = pixels[index][2]
 local b = pixels[index][3]
