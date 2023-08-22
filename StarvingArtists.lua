@@ -1,6 +1,8 @@
+-- Arda Script
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ARDA VE BORA", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "ARDA-BORA HUB", HidePremium = false, IntroEnabled = true, IntroText = "ARDA ve BORA", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local ArtMakerTab = Window:MakeTab({
 	Name = "ArtMaker",
